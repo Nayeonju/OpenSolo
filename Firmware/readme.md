@@ -25,7 +25,7 @@ These packages can be installed directly using SSH and SCP. Connect your PC to t
 
 ## Artoo STM32 Firmware ##
 
-The controller's STM32 hardware controls the sticks, buttons, display, battery, haptic, and lights.  It is a separate piece of hardware in the controller from the IMX, which has its own firmware.  This firmware is included in the IMX Firmware package.  So you would only be using this separate firmware loading process if you're making changes specific to it.  More detail is available in the [artoo directory](/artoo).  Compiled firmware is available here in the the [/Firmware/Artoo STM32](/Firmware/Artoo%20STM32) directory.
+The controller's STM32 hardware controls the sticks, buttons, display, battery, haptic, and lights.  It is a separate piece of hardware in the controller from the IMX, which has its own firmware.  This firmware is included in the IMX Firmware package.  So you would only be using this separate firmware loading process if you're making changes specific to it.  More detail is available in the [artoo directory](/artoo).  Compiled firmware is available here in the the [/Firmware/Artoo STM32](/Firmware/Artoo) directory.
 
 The default filename is `artoo.bin`.  You can rename it, as long as it begins with `artoo_`.  For example, you can name the file `artoo_1234xyz.bin`.
 
